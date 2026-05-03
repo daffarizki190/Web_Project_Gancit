@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8" />
+        <!-- ─── Favicon placeholder — replace with actual .ico for production ─── -->
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+        <!-- ─── Viewport & SEO ─── -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Gandaria City Project Hub — Portal Sistem Operasional Internal PT. Centrepark"
+        />
+        <!-- Prevent search-engine indexing for internal tool -->
+        <meta name="robots" content="noindex, nofollow" />
+
+        <!-- ─── Open Graph (internal sharing) ─── -->
+        <meta property="og:title" content="Gandaria City Project Hub" />
+        <meta
+            property="og:description"
+            content="Portal Sistem Operasional Internal PT. Centrepark — Gandaria City"
+        />
+        <meta property="og:type" content="website" />
+
+        <!-- ─── Google Fonts — Inter (body) + Syne (display heading) ─── -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Syne:wght@600;700;800&display=swap"
+            rel="stylesheet"
+        />
+
+        <title>Gandaria City Project Hub — PT. Centrepark</title>
+
+        <!-- ─── Anti-flash: force dark bg before React hydrates ─── -->
+        <style>
+            html,
+            body {
+                background-color: #050b18;
+                margin: 0;
+                padding: 0;
+            }
+            #root {
+                min-height: 100svh;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="root"></div>
+        <script type="module" src="/src/main.jsx"></script>
+    </body>
+</html>
