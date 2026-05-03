@@ -125,7 +125,7 @@ describe("hasProjectAccess()", () => {
     it("❌ null user → false", () =>
       expect(hasProjectAccess(null, "aura")).toBe(false));
     it("❌ user tanpa role → false", () =>
-      expect(hasProjectAccess({}, "aura")).toBe(false));
+      expect(hasProjectAccess({ role: "" }, "aura")).toBe(false));
     it("❌ project tidak dikenal → false", () =>
       expect(hasProjectAccess(leader, "xyz")).toBe(false));
     it("❌ project string kosong → false", () =>

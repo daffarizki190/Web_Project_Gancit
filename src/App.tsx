@@ -21,7 +21,6 @@ import {
   ExternalLink,
   ArrowRight,
   Globe,
-  MapPin,
   TrendingUp,
   Star,
   Cpu,
@@ -70,12 +69,7 @@ const stagger = {
   },
 };
 
-const staggerChild = {
-  variants: {
-    hidden: { opacity: 0, y: 14 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.35 } },
-  },
-};
+
 
 /* ─────────────────────────────────────────────────────────────────────
    TYPES
